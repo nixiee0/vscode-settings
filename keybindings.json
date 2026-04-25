@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+alt+n",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.terminal.killAll"
+    },
+    {
+        "key": "shift+alt+z",
+        "command": "cursorWordStartLeft"
+    },
+    {
+        "key": "shift+alt+x",
+        "command": "cursorWordStartRight"
+    },
+    {
+        "key": "ctrl+alt+d backspace",
+        "command": "deleteInsideWord"
+    }
+]
