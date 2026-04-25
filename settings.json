@@ -1,0 +1,142 @@
+{
+    "editor.hover.above": false,
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 150,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggest.localityBonus": true,
+    "editor.tabCompletion": "on",
+    "editor.parameterHints.enabled": true,
+
+    "editor.stickyScroll.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+
+    "window.titleBarStyle": "custom",
+    "window.controlsStyle": "custom",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2500,
+
+    "files.exclude": {
+        "**/.git": false
+    },
+    "explorer.excludeGitIgnore": true,
+
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.suggest.enabled": true,
+    "terminal.integrated.suggest.quickSuggestions": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+
+    "python.defaultInterpreterPath": "python",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "warning",
+        "reportOptionalSubscript": "error",
+        "reportOptionalMemberAccess": "error"
+    },
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.logLevel": "Information",
+    "python.analysis.languageServerMode": "default",
+    "python.analysis.typeCheckingMode": "basic",
+
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+    "cSpell.language": "en,ru",
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
+    "vscodeGoogleTranslate.preferredLanguage": "English",
+
+    "background.fullscreen": {
+        "images": [],
+        "opacity": 0.075,
+        "size": "100% 94%",
+        "position": "center",
+        "interval": 0,
+        "random": false
+    },
+
+    "vscord.app.name": "Visual Studio Code",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "Craft Icons",
+    "workbench.editor.empty.hint": "hidden",
+
+    "diffEditor.maxComputationTime": 0,
+    "git.autofetch": true,
+    "json.format.keepLines": true,
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+
+    "nixieepulse.githubProfile.enabled": false,
+    "nixieepulse.githubProfile.owner": "",
+    "nixieepulse.githubProfile.repo": "",
+    "nixieepulse.githubProfile.branch": "main",
+    "nixieepulse.githubProfile.readmePath": "README.md",
+    "nixieepulse.githubProfile.mode": "svg",
+    "nixieepulse.githubProfile.svgPath": "assets/coding-activity.svg",
+    "nixieepulse.githubProfile.autoSyncMinutes": 0,
+    "nixieepulse.githubProfile.syncOnExit": false,
+    "nixieepulse.githubProfile.maxLanguages": 6,
+    "nixieepulse.githubProfile.iconFolderPath": "",
+    "nixieepulse.githubProfile.hiddenLanguages": [
+        "ignore",
+        "gitignore",
+        "pip-requirements",
+        "requirements",
+        "plaintext",
+        "text",
+        "log",
+        "dotenv",
+        "env",
+        "properties",
+        "ini",
+        "toml",
+        "git-commit",
+        "git-rebase",
+        "csv",
+        "tsv"
+    ],
+
+    "background.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on"
+}
